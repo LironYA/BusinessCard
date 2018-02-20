@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="name">26sp</dimen>
+    <dimen name="artist">22sp</dimen>
+    <dimen name="layout_h">0dp</dimen>
+    <dimen name="text_padding_top">5dp</dimen>
+    <dimen name="text_padding">5dp</dimen>
+    <dimen name="text_padding_bottom">2dp</dimen>
+    <dimen name="text_padding_top_two">2dp</dimen>
+    <dimen name="text_padding_left">2dp</dimen>
+    <dimen name="padding_mail">3dp</dimen>
+    <dimen name="marging_pic">20dp</dimen>
+    <dimen name="marging_logo">20dp</dimen>
+    <dimen name="pic_h">55dp</dimen>
+</resources>

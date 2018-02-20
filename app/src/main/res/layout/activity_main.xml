@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.android.businesscard.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_h"
+        android:layout_weight="0.35"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:contentDescription="@string/moran"
+            android:paddingTop="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/picnew"
+            tools:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_h"
+        android:layout_weight="0.45"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/aladin"
+            android:padding="@dimen/text_padding"
+            android:text="@string/moran"
+            android:textColor="#212121"
+            android:textSize="@dimen/name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/aladin"
+            android:paddingBottom="2dp"
+            android:text="@string/eyerows"
+            android:textColor="#212121"
+            android:textSize="@dimen/artist" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/aladin"
+            android:paddingBottom="2dp"
+            android:text="@string/makeup"
+            android:textColor="#212121"
+            android:textSize="@dimen/artist" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/aladin"
+            android:paddingBottom="2dp"
+            android:text="@string/nails"
+            android:textColor="#212121"
+            android:textSize="@dimen/artist" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_padding_top_two"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/layout_h"
+                android:layout_height="@dimen/pic_h"
+                android:layout_marginLeft="@dimen/marging_pic"
+                android:layout_weight="0.5"
+                android:src="@drawable/brush" />
+
+            <ImageView
+                android:layout_width="@dimen/layout_h"
+                android:layout_height="@dimen/pic_h"
+                android:layout_weight="0.5"
+                android:paddingTop="@dimen/text_padding"
+                android:src="@drawable/eye"
+
+                />
+
+            <ImageView
+                android:layout_width="@dimen/layout_h"
+                android:layout_height="@dimen/pic_h"
+                android:layout_marginRight="@dimen/marging_pic"
+                android:layout_weight="0.5"
+                android:paddingTop="@dimen/text_padding"
+                android:src="@drawable/nails" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aladin"
+                android:padding="@dimen/padding_mail"
+                android:text="@string/email"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/artist" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aladin"
+                android:padding="@dimen/padding_mail"
+                android:text="@string/phone"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/artist" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:paddingTop="@dimen/text_padding_top_two"
+                android:src="@drawable/logo" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

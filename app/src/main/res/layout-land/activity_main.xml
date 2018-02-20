@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.android.businesscard.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_h"
+        android:layout_weight="0.45"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:contentDescription="@string/moran"
+            android:paddingTop="@dimen/text_padding_top"
+            android:scaleType="centerCrop"
+            android:src="@drawable/picnew"
+            tools:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_h"
+        android:layout_weight="0.6"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/aladin"
+            android:padding="@dimen/text_padding"
+            android:text="@string/moran"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/aladin"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:text="@string/eyerows"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/artist" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/aladin"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:text="@string/makeup"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/artist" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/aladin"
+            android:paddingBottom="@dimen/text_padding_bottom"
+            android:text="@string/nails"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/artist" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/text_padding_top"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/layout_h"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marging_logo"
+                android:layout_weight="0.2"
+                android:src="@drawable/brush" />
+
+            <ImageView
+                android:layout_width="@dimen/layout_h"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marging_logo"
+                android:layout_weight="0.2"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="@dimen/layout_h"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:fontFamily="@font/aladin"
+                android:paddingLeft="@dimen/text_padding_left"
+                android:paddingTop="@dimen/text_padding_top_two"
+                android:text="@string/emailphone"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/artist" />
+
+            <ImageView
+                android:layout_width="@dimen/layout_h"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:paddingTop="@dimen/text_padding_top"
+                android:src="@drawable/eye" />
+
+            <ImageView
+                android:layout_width="@dimen/layout_h"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/marging_logo"
+                android:layout_weight="0.2"
+                android:paddingTop="@dimen/text_padding_top"
+                android:src="@drawable/nails" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

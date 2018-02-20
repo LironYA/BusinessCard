@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Moran\'s card</string>
+    <string name="moran">Moran Yitshak Alkalay</string>
+    <string name="makeup">Makeup artist</string>
+    <string name="eyerows">Professional eyebrows designer</string>
+    <string name="nails">Nail technician</string>
+    <string name="email">MoranAlkalay@gmail.com</string>
+    <string name="phone">058-407-5858</string>
+    <string name="emailphone">MoranAlkalay@gmail.com\n &#160;&#160;&#160;&#160;&#160;&#160;058-407-5858</string>
+</resources>
+
